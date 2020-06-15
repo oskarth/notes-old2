@@ -1,0 +1,35 @@
+#+TITLE: Keshav2007: How to Read a Paper
+#+ROAM_KEY: https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf
+#+ROAM_TAGS: literature paper first-pass
+
+* Reference
+** Author
+   [[file:20200614113604-srinivasan_keshav.org][Srinivasan Keshav]]
+** Cite
+*** MLA
+   Keshav, Srinivasan. "How to read a paper." ACM SIGCOMM Computer Communication
+   Review 37.3 (2007): 83-84.
+*** BibteX
+@article{keshav2007read,
+  title={How to read a paper},
+  author={Keshav, Srinivasan},
+  journal={ACM SIGCOMM Computer Communication Review},
+  volume={37},
+  number={3},
+  pages={83--84},
+  year={2007},
+  publisher={ACM New York, NY, USA}
+}
+** Links
+- [[file:20200611122502-three_pass_method.org][Three-pass method]]
+- [[file:20200611122509-literature_review.org][Literature review]]
+[[file:20200611122516-effective_research.org][- Effective research]]
+
+* Notes
+This paper outlines a three-pass method for how to read research papers and do
+literature surveys. It is based on the authors own experience over 15 years as a
+researcher. It is assumed that researchers have to read a lot of papers every
+year, and that the skill of learning how to do so effectively is rarely taught.
+The paper explains how to read papers with progressively more depths and what to
+pay attention too. It also gives some tips for how to do a literature survey.
+The paper is written in a concise and clear way.
