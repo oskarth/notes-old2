@@ -1,0 +1,26 @@
+#+TITLE: First pass of a paper
+#+ROAM_TAGS: literature paper
+
+* Reference
+- [[file:20200611122432-how_to_read_a_paper.org][How to Read a Paper]]
+
+* Notes
+[Most of this is  taken pretty much verbatim from the referenced paper.]
+
+The goal of the first pass is to get an overview and decide whether any more
+passes are needed. It should take 5-10 minutes.
+
+1) Carefully read title, abstract and introduction
+2) Read section and subsection headings, but ignore everything else
+3) Read the conclusion
+4) Glance over references, mentally checking off what you read before
+
+As an output, after the first pass, you should be able to answer the five Cs:
+
+1. Category: What type of paper is this? Measurement, analysis, description of prototype?
+2. Context: Which other papers does this relate to? What theoretical basis is used?
+3. Correctness: Does assumptions appear valid?
+4. Contributions: What's the main contribution?
+5. Clarity: Is the paper well written?
+
+[Write this down.]
