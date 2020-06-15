@@ -1,0 +1,29 @@
+#+TITLE: Shape Up: Stop Running in Circles and Ship Work that Matters
+#+ROAM_KEY: https://basecamp.com/shapeup/webbook
+#+ROAM_TAGS: literature book first-pass
+
+* Reference
+** Author
+  [[file:20200615133245-ryan_singer.org][Ryan Singer]]
+** Cite
+*** Freeform
+   Singer, Ryan. "Shape Up v 1.7". 2019.
+** Source
+   Alternative link: https://basecamp.com/shapeup/shape-up.pdf
+** Links
+- [[file:20200615133218-jason_fried.org][Jason Fried]]
+- [[file:20200615133449-david_heinemeier_hansson_dhh.org][David Heinemeier Hansson (DHH)]]
+- [[file:20200615133510-yaneer_bar_yam.org][Yaneer Bar-Yam]]
+- [[file:20200615134913-fixed_time_variable_scope.org][Fixed time, variable scope]]
+* Notes
+This book describes a way of working and how to deal with risk for product
+development at a startup. It is based on the experience of Basecamp as it grew
+from 4 to 50 people, and reflects their current process after 15 years of trial
+and error in shipping software as teams and building a profitable business. It
+assumes you are shipping (primarily user-facing) software and that you are
+working as a team. It also assumes you can work in a six week cycle and take
+bets that impact resource management. The main contribution is two-fold. First,
+to show how to shape a problem, dealing with risk upfront, and bet time. Second,
+to show specific processes for betting and building that they use to facilitate
+this. It is well-written and split up into several parts that can be read in
+isolation, including well-defined vocabulary etc.
