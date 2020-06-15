@@ -1,0 +1,14 @@
+#+TITLE: Three-pass method
+#+ROAM_TAGS: literature paper
+
+* Reference
+** Source
+- [[file:20200611122432-how_to_read_a_paper.org][Keshav2007: How to Read a Paper]]
+** Links
+- [[file:20200611122940-first_pass_of_a_paper.org][First pass of a paper]]
+
+* Notes
+A method for reading a paper. Each pass builds upon the previous one. The first
+pass is to give a general idea of a paper. The second lets us understand
+content, but not detail. Finally, the third allows us to understand paper in
+depth.
