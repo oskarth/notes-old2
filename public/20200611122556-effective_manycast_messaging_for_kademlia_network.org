@@ -1,0 +1,33 @@
+#+TITLE: Effective Manycast Messaging for Kademlia Network
+#+ROAM_KEY: https://dl.acm.org/doi/pdf/10.1145/2695664.2695903
+#+ROAM_TAGS: literature paper first-pass
+
+* Reference
+** Author
+[[file:20200614115419-lubos_matl.org][Lubos Matl]] et al.
+** Cite
+*** MLA
+Matl, Lubos, Tomas Cerny, and Michael J. Donahoo. "Effective manycast messaging
+for Kademlia network." Proceedings of the 30th Annual ACM Symposium on Applied
+Computing. 2015.
+*** BibTeX
+@inproceedings{matl2015effective,
+  title={Effective manycast messaging for Kademlia network},
+  author={Matl, Lubos and Cerny, Tomas and Donahoo, Michael J},
+  booktitle={Proceedings of the 30th Annual ACM Symposium on Applied Computing},
+  pages={646--652},
+  year={2015}
+}
+** Links
+- [[file:maymounkov_kademlia_lncs_pdf.org][Maymounkov2002: Kademlia]]
+- [[file:20200614115651-manycast.org][Manycast]]
+- [[file:20200605180617-distributed_hash_table.org][Distributed Hash Table]]
+
+* Notes
+This paper primarily describes an extension to Kademlia, but it also contains a
+survey and some measurements. It relates to other forms of group communication
+protocols built on top of P2P communication protocols, primarily DHTs. It
+assumes we are using a P2P network and DHTs in particular, and uses Kademlia as
+a base. The main contribution is explaining how to implement group
+communication, specificially manycast, on top of Kademlia. The paper appears
+fairly well-written, albeit lacking some focus in its primary goal.
