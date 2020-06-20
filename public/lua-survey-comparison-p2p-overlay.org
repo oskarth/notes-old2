@@ -1,0 +1,44 @@
+#+TITLE: Lua2005: A survey and comparison of p2p overlay network schemes
+#+ROAM_KEY: https://www.cl.cam.ac.uk/research/dtg/www/files/publications/public/mp431/ieee-survey.pdf
+#+ROAM_TAGS: literature paper first-pass
+
+* Reference
+** Authors
+[[file:20200620123718-eng_keong_lua.org][Eng Keong Lua]]
+[[file:20200620123853-jon_crowcroft.org][Jon Crowcroft]]
+[[file:20200620125359-marcelo_pias.org][Marcelo Pias]]
+** Cite
+*** MLA
+Lua, Eng Keong, et al. "A survey and comparison of peer-to-peer overlay network
+schemes." IEEE Communications Surveys & Tutorials 7.2 (2005): 72-93.
+*** BiBTeX
+@article{lua2005survey,
+  title={A survey and comparison of peer-to-peer overlay network schemes},
+  author={Lua, Eng Keong and Crowcroft, Jon and Pias, Marcelo and Sharma, Ravi and Lim, Steven},
+  journal={IEEE Communications Surveys \& Tutorials},
+  volume={7},
+  number={2},
+  pages={72--93},
+  year={2005},
+  publisher={IEEE}
+}
+** Links
+- [[file:20200620122633-p2p_overlay_networks_structured_vs_unstructured.org][P2P Overlay Networks - Structured vs Unstructured]]
+- [[file:20200620130142-a_measurement_study_of_peer_to_peer_file_sharing_systems.org][A Measurement Study of Peer-to-Peer File Sharing Systems]]
+* Notes
+This paper is a survey paper. It categorizes various peer-to-peer overlay
+network schemes into structured and unstructured. It then goes into detail of
+various dimensions that are relevant when evaluating how these systems behave.
+The main assumption is that we are running a peer-to-peer network, and we can
+choose a topology with some properties. Another assumption is that there's a
+somewhat clear divide between the two types of networks. In general these
+assumptions seems valid, and the author acknowledges that there are some hybrid
+models. The main contribution is the classification and juxtaposition of
+properties for various systems. The paper appears fairly well written and is
+well cited.
+
+[I am interested in unstructured network amplification factors. Is this
+mentioned? Appears no.]
+
+[The unstructured routing section isn't very quantitative, but it provides a lot
+of citations to other papers.]
