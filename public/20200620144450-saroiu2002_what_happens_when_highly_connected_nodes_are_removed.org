@@ -1,0 +1,26 @@
+#+TITLE: Saroiu2002: What happens when highly connected nodes are removed?
+#+ROAM_TAGS: literature paper
+#+OPTIONS: tex:t
+
+* Reference
+** Cite
+- [[file:20200620130142-a_measurement_study_of_peer_to_peer_file_sharing_systems.org][Saroiu2002: A Measurement Study of Peer-to-Peer File Sharing Systems]]
+- [[file:20200620144354-cohen2000_resilience_of_the_internet_to_random_breakdowns.org][Cohen2000: Resilience of the Internet to random breakdowns]]
+** Links
+- [[file:20200620141310-why_connectivity_follows_a_power_law_distribution_in_p2p_networks.org][Why connectivity follows a power-law distribution in P2P networks]]
+- [[file:20200620144417-power_law_distribution.org][Power law distribution]]
+- [[file:20200620135010-number_of_gnutella_peers_that_must_suffer_breakdown_to_fragment_gnutella_network.org][Gnutella]]
+- [[file:../private/20200620150339-p2p_attack.org][P2P Attack]]
+
+* Notes
+
+This image shows how Gnutella topology looks, what happens when we remove nodes from it.
+
+In the middle the largest connected component has 1106 out of 1300 nodes.
+However, a motivated attacker wouldn't remove random peers, but would instead
+remove them most connected nodes. Due to the power law distribution of
+connectivity, this would have a big impact.
+
+Removing only 63 highly connected peers leads to many disconnected components.
+
+[[file:../public/files/saroiu02measurement3.png]]
