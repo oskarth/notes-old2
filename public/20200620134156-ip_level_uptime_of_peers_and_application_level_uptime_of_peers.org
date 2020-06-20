@@ -1,0 +1,23 @@
+#+TITLE: Saroiu2002: IP-level uptime of peers and application-level uptime of peers
+#+ROAM_TAGS: literature paper first-pass
+
+* Reference
+** Cite
+- [[file:20200620130142-a_measurement_study_of_peer_to_peer_file_sharing_systems.org][Saroiu2002: Measurement Study of Peer-to-Peer File Sharing Systems]]
+** Links
+[[file:20200620134832-high_availability.org][High-Availability]]
+
+* Notes
+
+How many peers are highly-available?
+
+[[file:../public/files/saroiu02measurement1.png]]
+
+This image shows that Internet Hosts are online about the same for Gnutella and
+Napster. However, when it comes to application uptime, we see that Napster Hosts
+are online more often.
+
+Only 20% of nodes have an Internet Host uptime of 90% or more.
+
+This has implications for reasonable uptime assumptions for other P2P Desktop
+applications.
