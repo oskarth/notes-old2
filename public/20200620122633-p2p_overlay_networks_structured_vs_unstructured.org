@@ -1,0 +1,24 @@
+#+TITLE: Lua2005: P2P Overlay Networks - Structured vs Unstructured
+#+ROAM_TAGS: literature paper
+
+* Reference
+** Cite
+[[file:lua-survey-comparison-p2p-overlay.org][(literature,paper) Lua2005: A survey and comparison of p2p overlay network schemes]]
+
+** Links
+- [[file:maymounkov_kademlia_lncs_pdf.org][Maymounkov2002: Kademlia]]
+- [[file:20200620124441-what_is_the_tradeoff_between_structured_and_unstructured_networks.org][What is the tradeoff between structured and unstructured P2P networks?]]
+
+* Notes
+In a P2P Overlay Network, usually running on top of Internet Protocol (IP), we
+can distinguish between two classes of network topologies, structured and
+unstructured.
+
+In a structured network, the topology is controlled and content is placed at
+specific locations to make operations easier. Usually this relates to something
+like in PeerID, such as in Kademlia where nodes store content that is close to
+them.
+
+In an unstructured network, the overlay is organized as a random graph, either
+in a flat or "hierarchical" manner, such as with Super Peers. Then something
+like flooding or random walks is used to do the routing.
