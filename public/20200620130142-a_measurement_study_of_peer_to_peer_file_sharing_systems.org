@@ -1,0 +1,43 @@
+#+TITLE: Saroiu2002: A Measurement Study of Peer-to-Peer File Sharing Systems
+#+ROAM_KEY: http://www.music.mcgill.ca/~ich/classes/mumt621_09/P2P/saroiu02measurement.pdf
+#+ROAM_TAGS: literature paper first-pass
+
+* Reference
+** Authors
+   [[file:20200620133305-stefan_saroiu.org][Stefan Saroiu]]
+   [[file:20200620133308-krishna_p_gummadi.org][Krishna P. Gummadi]]
+** Cite
+*** MLA
+ Saroiu, Stefan, P. Krishna Gummadi, and Steven D. Gribble. "Measurement study of peer-to-peer file sharing systems." Multimedia Computing and Networking 2002. Vol. 4673. International Society for Optics and Photonics, 2001. 
+*** BiBTeX
+@inproceedings{saroiu2001measurement,
+  title={Measurement study of peer-to-peer file sharing systems},
+  author={Saroiu, Stefan and Gummadi, P Krishna and Gribble, Steven D},
+  booktitle={Multimedia Computing and Networking 2002},
+  volume={4673},
+  pages={156--170},
+  year={2001},
+  organization={International Society for Optics and Photonics}
+}
+** Links
+- [[file:20200620134156-ip_level_uptime_of_peers_and_application_level_uptime_of_peers.org][Saroiu2002: IP-level uptime of peers and application-level uptime of peers]]
+- [[file:20200620135010-number_of_gnutella_peers_that_must_suffer_breakdown_to_fragment_gnutella_network.org][Saroiu2002: Number of Gnutella peers that must suffer breakdown to fragment Gnutella network]]
+
+* Notes
+The paper is a measurement paper. It studies how Napster and Gnutella behave in
+detail in an emprirical manner, i.e. by crawling the live network over some
+period of time. The assumption is that by crawling the network you can find out
+how end-users behave, and also use this to inform P2P protocol design. This
+seems like a reasonable assumption and they managed to gather a lot of data.
+
+The main contribution is (a) to capture real live metrics when it comes to
+bandwidth, latency, availability, etc of participants in these networks (b)
+discover that there is a lot of heterogenerity across peers and sharing varies
+by 3-5 orders of magnitude, implying that we must be careful to spread
+responsibilities and (c) discover that peers tend to deliberately misreport
+information if there is incentive to do so, implying that truthful reporting
+must be incentivized to have an well-functioning system.
+
+The paper is well written, detailed and well cited.
+
+[There are a lot of graphs in the paper, and a few jumped out at me. See links.].
